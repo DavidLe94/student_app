@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.assignment_android_basic.ManagementStudentsActivity" >
+
+    <item
+        android:id="@+id/action_adds"
+        android:title="Adds"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_find"
+        android:title="Find"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom"/>
+
+</menu>
