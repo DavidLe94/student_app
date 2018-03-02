@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Function_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.assignment_android_basic.FunctionActivity" >
+
+    <TextView
+        android:id="@+id/tvClassID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivAdd"
+        android:layout_centerHorizontal="true"
+        android:text="Add Class"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColorLink="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Students Management"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/ivManagementStudent"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/manager" />
+
+    <TextView
+        android:id="@+id/tvClassName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivManagementStudent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:text="View Class List"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/ivViewClass"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/tvClassName"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/open" />
+
+    <ImageView
+        android:id="@+id/ivAdd"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/add" />
+
+</RelativeLayout>
